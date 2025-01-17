@@ -171,15 +171,16 @@ main > section {
   text-align: center;
 }
 .sponsor-companies {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .sponsor-companies img {
   filter: grayscale(100%);
 }
-/* top r b l */
+
 .footer {
-  width: 1240px;
+  max-width: 1440px;
   height: 100px;
   background-color: #fff4e7;
   display: flex;
@@ -187,9 +188,8 @@ main > section {
   align-items: center;
   text-align: center;
   font-size: 16px;
-  margin: 0 auto;
+  margin: 130px auto;
   position: relative;
-  top: 100px;
   border-radius: 8px;
 }
 
